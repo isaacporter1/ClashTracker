@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-export async function GET() {
+export async function GET(request: Request) {
   const clanTag = '%23G8CJ02RR'; // Example: "#2L8Q2P2Y" becomes "%232L8Q2P2Y" (URL encoded)
   
   const response = await fetch(`https://api.clashofclans.com/v1/clans/${clanTag}/currentwar`, {
