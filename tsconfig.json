@@ -29,6 +29,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "lib/seed.ts"
-  ],
+, "app/api/submit.js"  ],
   "exclude": ["node_modules"]
 }
